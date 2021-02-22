@@ -1,0 +1,15 @@
+PHP session and cookie
+
+A session is a way of storing information in variables across the web pages, but the information is not stored on the user's machine (computer), unlike cookie. Simple syntax to start a session in PHP is to type the command
+
+session_start();
+
+A session usually starts when a user opens the application via the browser and closes when the user closes the browser.
+
+A cookie, on the other hand, is a file that the server embedded into the user's machine (computer) in order to identify a user on a website or web app whenever there is a request. A cookie variable can be created and retrieved.
+We create a cookie by the below command which takes some arguments, but the name argument is required of all arguments while others are optional.
+
+setcookie();
+
+A cookie value can be retrieved with the global variable $_COOKIE.
+The isset() function can also be used to check if a cookie is set.
